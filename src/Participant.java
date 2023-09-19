@@ -3,7 +3,7 @@ public class Participant {
     String name;
     int age;
 
-    //Constructor that initializes objects and ensures that every 'Participant' must have a 'name' and an 'age'
+    //Constructor that initializes the object's attributes and ensures that every 'Participant' must have a 'name' and an 'age'
     public Participant(String name, int age) {
         this.name = name;
         this.age = age;
