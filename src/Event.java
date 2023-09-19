@@ -8,6 +8,7 @@ public class Event {
     int amountOfParticipants;
     Participant[] participant;
 
+    //Constructor that initializes objects and ensures that every 'Event' must have the following parameters
     public Event(String name, String date, String place, Participant[] participants) {
         this.name = name;
         this.date = date;
