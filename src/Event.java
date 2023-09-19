@@ -9,6 +9,7 @@ public class Event {
     Participant[] participant;
 
     //Constructor that initializes the object's attributes and ensures that every 'Event' must have the following parameters
+    //Keyword 'this.' is used to clarify the instance variables and prevents naming conflict with the parameters
     public Event(String name, String date, String place, Participant[] participants) {
         this.name = name;
         this.date = date;
